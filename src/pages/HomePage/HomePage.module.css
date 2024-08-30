@@ -1,0 +1,42 @@
+.wrapper {
+  padding: 260px 64px;
+  background-image: url('../../assets/img/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  margin-bottom: 16px;
+
+  color: #f7f7f7;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 0.667;
+}
+
+.text {
+  margin-bottom: 40px;
+
+  color: #f7f7f7;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.333;
+}
+
+.link {
+  display: block;
+  padding: 16px 48.5px;
+  width: max-content;
+
+  border-radius: 200px;
+  background: #e44848;
+
+  color: #fff;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.08px;
+  text-decoration: none;
+}

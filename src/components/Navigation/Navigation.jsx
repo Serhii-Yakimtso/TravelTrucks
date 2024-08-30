@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import clsx from 'clsx';
 import Logo from '../Logo/Logo';
 import css from './Navigation.module.css';
@@ -10,9 +10,9 @@ const getNavlinkClass = ({ isActive }) => {
 export default function Navigation() {
   return (
     <div className={css.header}>
-      <a className={css.logo} href="/">
+      <Link className={css.logo} to="/">
         <Logo />
-      </a>
+      </Link>
       <nav className={css.menu}>
         <NavLink to="/" className={getNavlinkClass}>
           Home
