@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
-import css from './Navigation.module.css';
 import clsx from 'clsx';
+import Logo from '../Logo/Logo';
+import css from './Navigation.module.css';
 
 const getNavlinkClass = ({ isActive }) => {
   return clsx(css.link, isActive && css.active);
@@ -8,7 +9,10 @@ const getNavlinkClass = ({ isActive }) => {
 
 export default function Navigation() {
   return (
-    <>
+    <div className={css.header}>
+      <a className={css.logo} href="/">
+        <Logo />
+      </a>
       <nav className={css.menu}>
         <NavLink to="/" className={getNavlinkClass}>
           Home
@@ -17,6 +21,6 @@ export default function Navigation() {
           Catalog
         </NavLink>
       </nav>
-    </>
+    </div>
   );
 }
