@@ -1,5 +1,5 @@
 * {
-  /* outline: 1px solid tomato; */
+  outline: 1px solid tomato;
   box-sizing: border-box;
 }
 
@@ -22,4 +22,9 @@ ul {
 button {
   font-family: inherit;
   cursor: pointer;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
