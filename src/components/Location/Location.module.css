@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.label {
+  color: #6c717b;
+
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.input {
+  padding: 18px 20px;
+  width: 360px;
+  height: 56px;
+
+  border-radius: 12px;
+  background: #f7f7f7;
+
+  color: #101828;
+
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+input::placeholder {
+  color: #6c717b;
+}

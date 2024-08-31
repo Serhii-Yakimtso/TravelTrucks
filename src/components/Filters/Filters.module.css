@@ -1,0 +1,29 @@
+.wrapper {
+  width: 360px;
+}
+
+.btn {
+  /* display: flex; */
+  /* width: 166px; */
+  padding: 16px 60px;
+  /* justify-content: center;
+  align-items: center;
+  gap: 10px; */
+  border: none;
+  border-radius: 200px;
+  background-color: #e44848;
+
+  color: var(--White, #fff);
+
+  /* font-family: Inter; */
+  font-size: 16px;
+  /* font-style: normal; */
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.08px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #d84343;
+}
