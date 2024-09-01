@@ -1,0 +1,18 @@
+.list {
+  display: flex;
+  gap: 4px;
+
+  list-style: none;
+}
+
+.active {
+  width: 16px;
+  height: 16px;
+  fill: #ffc531;
+}
+
+.disActive {
+  width: 16px;
+  height: 16px;
+  fill: #f2f4f7;
+}
