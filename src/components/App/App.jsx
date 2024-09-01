@@ -10,8 +10,8 @@ const TruckDetailsPage = lazy(() =>
 const NotFoundPage = lazy(() =>
   import('../../pages/NotFoundPage/NotFoundPage')
 );
-const TruckFeaures = lazy(() =>
-  import('../../components/TruckFeaures/TruckFeaures')
+const TruckFeatures = lazy(() =>
+  import('../../components/TruckFeatures/TruckFeatures')
 );
 const TruckReviews = lazy(() =>
   import('../../components/TruckReviews/TruckReviews')
@@ -25,7 +25,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/catalog/:id" element={<TruckDetailsPage />}>
-            <Route path="features" element={<TruckFeaures />} />
+            <Route path="features" element={<TruckFeatures />} />
             <Route path="reviews" element={<TruckReviews />} />
           </Route>
           <Route path="*" element={<NotFoundPage />} />

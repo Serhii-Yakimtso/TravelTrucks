@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { NavLink, useParams } from 'react-router-dom';
+import { NavLink, Outlet, useParams } from 'react-router-dom';
 
 import { HiStar } from 'react-icons/hi';
 import { CiMap } from 'react-icons/ci';
@@ -67,6 +67,7 @@ export default function TruckDetailsPage() {
           </NavLink>
         </li>
       </ul>
+      <Outlet />
     </section>
   );
 }

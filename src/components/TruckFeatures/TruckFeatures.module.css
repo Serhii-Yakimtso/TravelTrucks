@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+.info {
+  padding: 44px 52px;
+  width: calc((100% - 40px) / 2);
+  height: 750px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+}
+
+.listProps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 44px;
+
+  height: 160px;
+
+  list-style: none;
+}
+
+.itemProp {
+  display: flex;
+  gap: 8px;
+  padding: 12px 18px;
+  border-radius: 100px;
+  background: #f2f4f7;
+  mix-blend-mode: multiply;
+}
+
+.itemIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.itemDescription {
+  color: #101828;
+  text-align: center;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.characteristics {
+  /* margin-top: 100px; */
+}
+
+.title {
+  margin-bottom: 24px;
+  padding: 0px 0px 24px 0px;
+  border-bottom: 1px solid #dadde1;
+
+  color: #101828;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.charactList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.charactItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.charactItem > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--main);
+}
+
+.typeText::first-letter {
+  text-transform: capitalize;
+}
