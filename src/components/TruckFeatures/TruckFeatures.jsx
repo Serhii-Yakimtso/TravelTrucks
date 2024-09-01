@@ -14,6 +14,7 @@ import GasIcon from '../../assets/icons/gas.svg';
 import WaterIcon from '../../assets/icons/water.svg';
 
 import css from './TruckFeatures.module.css';
+import OrderForm from '../OrderForm/OrderForm';
 
 export default function TruckFeatures() {
   const truckData = useSelector(selectTruckItems);
@@ -167,6 +168,7 @@ export default function TruckFeatures() {
           </li>
         </ul>
       </div>
+      <OrderForm />
     </div>
   );
 }
