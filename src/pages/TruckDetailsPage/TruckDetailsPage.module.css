@@ -1,0 +1,137 @@
+.section {
+  margin: 0 auto;
+  padding: 48px 64px 80px 64px;
+  width: 1440px;
+}
+
+.container {
+  margin-bottom: 28px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: #101828;
+}
+
+.wrapperHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.wrapperRating {
+  display: flex;
+  align-items: center;
+}
+
+.iconStar {
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+
+  fill: #ffc531;
+}
+
+.rating {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #101828;
+}
+
+.wrapperLocation {
+  display: flex;
+}
+
+.iconMap {
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+
+  color: #101828;
+}
+
+.location {
+  color: #101828;
+
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.price {
+  margin-right: 12px;
+
+  color: #101828;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+}
+
+.galleryList {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin-bottom: 28px;
+  list-style: none;
+}
+
+.galleryItem {
+  width: 292px;
+  height: 312px;
+
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image {
+  width: 300px;
+  height: 330px;
+
+  object-fit: cover;
+}
+
+.descriprion {
+  margin-bottom: 60px;
+
+  color: #475467;
+
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.linksList {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 56px;
+  padding: 0px 0px 24px 0px;
+
+  border-bottom: 1px solid #dadde1;
+  list-style: none;
+}
+
+.link {
+  color: #101828;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  text-decoration: none;
+}
+
+.active {
+  padding-bottom: 24px;
+  border-bottom: 5px solid #e44848;
+  color: #101828;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  text-decoration: none;
+}
