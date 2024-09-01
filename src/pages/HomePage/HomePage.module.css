@@ -1,9 +1,12 @@
-.wrapper {
-  padding: 260px 64px;
+.hero {
   background-image: url('../../assets/img/hero.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.container {
+  padding: 260px 64px;
 }
 
 .title {

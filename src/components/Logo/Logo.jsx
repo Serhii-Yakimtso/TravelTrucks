@@ -1,7 +1,6 @@
-import React from 'react';
 export default function Logo() {
   return (
-    <a href="/">
+    <>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="136"
@@ -55,6 +54,6 @@ export default function Logo() {
           fill="#101828"
         />
       </svg>
-    </a>
+    </>
   );
 }
