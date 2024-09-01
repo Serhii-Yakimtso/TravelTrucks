@@ -46,6 +46,7 @@
 
 .wrapperLocation {
   display: flex;
+  align-items: center;
 }
 
 .iconMap {

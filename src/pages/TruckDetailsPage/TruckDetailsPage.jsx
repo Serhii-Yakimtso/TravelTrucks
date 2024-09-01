@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { NavLink, useLocation, useParams } from 'react-router-dom';
+import { NavLink, useParams } from 'react-router-dom';
 
 import { HiStar } from 'react-icons/hi';
 import { CiMap } from 'react-icons/ci';
@@ -15,7 +15,6 @@ export default function TruckDetailsPage() {
   const { id } = useParams();
 
   const truckData = useSelector(selectTruckItems);
-  const path = useLocation();
   const dispatch = useDispatch();
 
   useEffect(() => {
