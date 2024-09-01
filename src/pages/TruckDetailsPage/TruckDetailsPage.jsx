@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { NavLink, Outlet, useLocation, useParams } from 'react-router-dom';
+import { NavLink, useLocation, useParams } from 'react-router-dom';
 
 import { HiStar } from 'react-icons/hi';
 import { CiMap } from 'react-icons/ci';
